@@ -18,7 +18,7 @@ const timer = {
     this.isActive = true;
     const startTime = Date.now();
 
-    updateClockface(0);
+    // updateClockface(0);
 
     this.intervalId = setInterval(() => {
       const time = this.targetDate.getTime() - new Date().getTime();
